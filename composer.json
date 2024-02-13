@@ -1,0 +1,12 @@
+{
+    "require": {
+        "mpdf/mpdf": "^8.2",
+        "ext-gd": "*",
+        "picqer/php-barcode-generator": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mpdf\\": "vendor/mpdf/mpdf/src/"
+        }
+    }
+}
